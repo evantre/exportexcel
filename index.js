@@ -1,7 +1,7 @@
 import workbook from "./workbook";
 import { saveAs } from "file-saver";
 
-export default function exportExcel(workbookName, worksheets) {
+export function exportexcel(workbookName, worksheets) {
   if (!Array.isArray(worksheets)) {
     worksheets = [worksheets];
   }
