@@ -1,5 +1,5 @@
 {
-  "name": "exportexcel",
+  "name": "fe-export-excel",
   "version": "1.0.0",
   "author": "evantre@qq.com",
   "private": false,
@@ -12,7 +12,7 @@
   "keywords": [
     "js excel export",
     "excel",
-    "excel download"
+    "fe excel download"
   ],
   "scripts": {},
   "license": "MIT",

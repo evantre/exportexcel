@@ -5,7 +5,7 @@
 ## Import
 
 ```js
-import { exportexcel } from "exportexcel";
+import { exportexcel } from "fe-export-excel";
 ```
 
 ## Examples
