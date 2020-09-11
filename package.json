@@ -1,0 +1,23 @@
+{
+  "name": "exportexcel",
+  "version": "1.0.0",
+  "author": "evantre@qq.com",
+  "private": false,
+  "description": "浏览器端生成和导出 Excel",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:evantre/exportexcel.git"
+  },
+  "keywords": [
+    "js excel export",
+    "excel",
+    "excel download"
+  ],
+  "scripts": {},
+  "license": "MIT",
+  "dependencies": {
+    "exceljs": "^4.1.1",
+    "file-saver": "^2.0.2"
+  }
+}
