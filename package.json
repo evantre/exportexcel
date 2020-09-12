@@ -1,6 +1,6 @@
 {
   "name": "fe-export-excel",
-  "version": "1.0.1",
+  "version": "1.0.5",
   "author": "evantre@qq.com",
   "private": false,
   "description": "浏览器端生成和导出 Excel",

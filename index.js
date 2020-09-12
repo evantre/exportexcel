@@ -1,15 +1,9 @@
-import workbook from "./workbook";
-import { saveAs } from "file-saver";
+import { workbook } from "./lib/workbook";
+import { download } from "./lib/download";
+
+export { workbook, download };
 
 export function exportexcel(workbookName, worksheets) {
-  if (!Array.isArray(worksheets)) {
-    worksheets = [worksheets];
-  }
-
-  const excel = workbook(worksheets);
-
-  // 下载 download
-  excel.xlsx.writeBuffer().then((buffer) => {
-    saveAs(new Blob([buffer]), `${workbookName}.xlsx`);
-  });
+  const wb = workbook(worksheets);
+  download(wb, workbookName);
 }
