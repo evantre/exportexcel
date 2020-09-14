@@ -1,6 +1,6 @@
 # exportexcel
 
-浏览器端生成和导出 Excel。(Browser-side generation and export of Excel)
+浏览器端生成和导出 Excel (Browser-side generation and export of Excel)。支持合并单元格和设置单元格样式。
 
 ## Import and API
 
